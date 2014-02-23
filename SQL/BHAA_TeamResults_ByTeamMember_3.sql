@@ -16,7 +16,7 @@ select
   cl.ClubName,
   ea.OverallFinishPosition as [Overall Pos], 
   RTSys.dbo.GetFinishTime(ea.FinishTime) as [Finish Time],
-  ea.ChipNo as [Std],
+  a.PhoneFax as [Std],
   'W' as Class,
   a.PhoneHome as [Team No], 
   a.PhoneWork as [Company No],

@@ -1,6 +1,6 @@
 select <<ROWCOUNT>> RaceName, EventDescr, ea.OverallFinishPosition as Pos, Firstname + ' ' + Lastname as 'Name',
   Country, ea.RaceNo, eac.Category, eac.CategoryCode, Gender, GenderCode + CategoryCode as GenCateg,
-  cl.ClubName as Club, et.TeamName, a.MedicalDetails as 'Company', ea.ChipNo as 'Standard',
+  cl.ClubName as Club, et.TeamName, a.MedicalDetails as 'Company', a.PhoneFax as 'Standard',
   RTSys.dbo.GetFinishTime(ea.FinishTime) as 'Time', 
   RTSys.dbo.GetFinishTime(ea.FinishTime - Fas.FinishTime) as 'Time Behind Categ', 
   RTSys.dbo.GetFinishTime(ea.FinishTime - TBL.FinishTime) as 'Time Behind Winner', 

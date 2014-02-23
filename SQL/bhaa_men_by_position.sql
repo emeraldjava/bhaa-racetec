@@ -19,7 +19,7 @@ select
   cl.ClubName,
   ea.OverallFinishPosition as [Overall Pos], 
   RTSys.dbo.GetFinishTime(ea.FinishTime) as [Finish Time],
-  ea.ChipNo as [Std],
+  a.PhoneFax as [Std],
   qx.Q as [HUMM],
 
  -- (SELECT NTILE(4) over (order by TotalStd) FROM [RaceTec].[dbo].[EventTeamResultType2] where RaceId=12 and EventId=2 and TeamId=t2.TeamId and TeamTypeId=t2.TeamTypeId) as [Subselect],

@@ -1,17 +1,20 @@
-Mens 4 Mile
+4 Mile
 Wave 1
 	
-[Athlete].Member Number	
+[Athlete].ID Number	[Athlete].Member Number
 [Event].Race Number	[Event].Import Key
 [Event].Event	
 [Athlete].First Name	
 [Athlete].Last Name	
 [Athlete].Gender	
 [Athlete].Date of Birth	
-[Event].Chip Number	
+[Athlete].Phone Fax	
 	
 [Athlete].Phone Work	
 [Event].Club Name	
 [Athlete].Phone Home	
 [Event].Team Name	
+	
+[Athlete].Phone Cell	
+[Athlete].Email	
 	

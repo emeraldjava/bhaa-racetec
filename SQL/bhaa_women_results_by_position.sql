@@ -3,7 +3,7 @@ select r.RaceName, re.EventDescr, tt.TeamType, t2.FinishPosition as [Team Pos], 
   tt.ResultAthleteCount as [No of Finishers Needed for Result],
   RaceNo, Firstname + ' ' + Lastname as [Name], g.Gender, EventGunDescr as [Wave], cl.ClubName,
   ea.OverallFinishPosition as [Overall Pos], RTSys.dbo.GetFinishTime(ea.FinishTime) as [Finish Time],
-  ea.ChipNo as [Std]
+  a.PhoneFax as [Std]
 from
 EventAthlete ea
 join EventTeam et

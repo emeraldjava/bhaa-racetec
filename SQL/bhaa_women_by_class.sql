@@ -11,7 +11,7 @@ select 0 as Pos, r.RaceName, re.EventDescr, tt.TeamType, t2.TempTeamId,
 	when t2.TotalStd between 31 and 36 then 'B'
 	when t2.TotalStd between 37 and 42 then 'C'
 	when t2.TotalStd between 43 and 90 then 'D'
-  end as [Class], ea.ChipNo as [Std]
+  end as [Class], a.PhoneFax as [Std]
   into #A
 from
 EventAthlete ea
