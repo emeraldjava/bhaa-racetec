@@ -8,7 +8,7 @@ Wave 1
 [Athlete].Last Name	
 [Athlete].Gender	
 [Athlete].Date of Birth	
-[Athlete].Phone Fax	
+[Athlete].Phone Fax	[Event].Chip Code
 	
 [Athlete].Phone Work	
 [Event].Club Name	
