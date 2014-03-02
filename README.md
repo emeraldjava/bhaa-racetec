@@ -60,3 +60,9 @@ id,runner,racenumber,event,firstname,surname,gender,dateofbirth,agecat,standard,
 -- raceresult table export 
 position,racenumber,id,racetime,surname,firstname,gender,dateofbirth,standard,category,teamname,teamid,companyname,companyid,event,race,email,newsletter,mobilephone,textmessage,address1,address2,address3,
 ==> bhaa_raceresult_import.dit
+
+Populate the teams
+
+exec RTSYs.dbo.[spComputeTeamFinishPositionsType3] 'RaceTec', 'RTSys',  <<RACEID>> ,  <<EVENTID>> , 0
+
+select 'BHAA Racetec Results Calculated Successfully'
