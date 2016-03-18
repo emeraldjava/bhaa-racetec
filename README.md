@@ -34,11 +34,13 @@ This is a backup of the racetec SQL reports for the BHAA.
 
 The field mapping between BHAA and Racetec
 
-BHAA Team ID : [Athlete].PhoneHome
-BHAA Team Name : [Event].ClubName
-BHAA Company Name : [Athlete].ClubName
-BHAA Company ID : [Athlete].PhoneWork
-BHAA Standard : [Event].ChipNo
+| BHAA Field | Racetec Field |
+| ---------- | ------------- |
+| Team ID | [Athlete].PhoneHome |
+| Team Name | [Event].ClubName |
+| Company Name | [Athlete].ClubName |
+| Company ID | [Athlete].PhoneWork |
+| Standard | [Event].ChipNo |
 
 Basically racetec uses the team name as the ID for all report, so
 we need to map the BHAA uniqued ID this this field. We can still 
