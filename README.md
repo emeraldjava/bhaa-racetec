@@ -2,33 +2,33 @@ bhaa-racetec
 ============
 
 
-|Field|BHAA Schema|Note	|Racetec Field|	Racetec Schema|
-|Postion	|raceresult.position	|Empty for Reg| Value for Export	|	
-|Race Number	|raceresult.racenumber	|	[Event].Race Number & [Event].Import Key|	ea.RaceNo, ea.ImportKey|
-|Runner ID|	runner.id|	4 digit BHAA num or 5 digit Day	|[Athlete].Member Number|	a.MemberNo|
-|Time	|raceresult.time	|Empty for Reg| Value for Export		|
-|Surname|	runner.surname	|	[Athlete].Last |Name|	a.LastName|
-|Firstnane	|runner.firstname		|[Athlete].First |Name	|a.FirstName|
-|Gender	|runner.gender	|M or F for racetec	|[Athlete].Gender|	a.GenderId|
-|BHAA Standard|	runner.standard	|raceresult.standard	|[Event].Chip Number|	ea.ChipNo|
-|Date Of Birth|	runner.dateofbirth	|YYYY-MM-DD	|[Athlete].Date of Birth|	a.DateOfBirth|
-|Age Category	|raceresult.category|		Not imported||	
-|Team Name	|team.name	|	[Event].Team Name	|et.TeamName|
-|Team ID	|team.id	|BHAA Team ID	|[Athlete].PhoneHome	|a.PhoneHome|
-|Comany Name|	company.name|		[Event].Club Name	|cl.ClubName|
-|Company ID	|company.id	|BHAA Company ID	[Athlete].PhoneWork	|a.PhoneWork|
-|Event	|event.tag_race.distance|	abc2012_5km	|[Event].Event|	
-|RaceId	|raceresult.race|	Export only	|Not imported|	
-|Email	|runner.email	|	[Athlete].Email|	a.Email|
-|Newsletter	|runner.newsletter|	BHAA import only	|Not imported|	
-|Mobile	|runner.mobile		|[Athlete].PhoneCell	|a.PhoneCell|
-|TextAlert|	runner.textmessage	|BHAA import only	|Not imported	|
-|Address1	|runner.address1	|BHAA import only	|[Athlete].Address1|	a.Address1|
-|Address2	|runner.address2	|BHAA import only	|[Athlete].Address2|	a.Address2|
-|Address3	|runner.address3	|BHAA import only	|[Athlete].Address3|	a.Address3|
-|type|	type|	Option BHAA |reg fields	|Not imported|	
-|last_modified|	last_modified,	Option BHAA reg fields	|Not imported	|
-
+| Field | BHAA Schema | Note | Racetec Field | Racetec Schema |
+| ----- | ----------- | ---- | ------------- | -------------- |
+| Postion	|raceresult.position	|Empty for Reg| Value for Export	|	
+| Race Number	|raceresult.racenumber	|	[Event].Race Number & [Event].Import Key|	ea.RaceNo, ea.ImportKey|
+| Runner ID|	runner.id|	4 digit BHAA num or 5 digit Day	|[Athlete].Member Number|	a.MemberNo|
+| Time	|raceresult.time	|Empty for Reg| Value for Export		|
+| Surname|	runner.surname	|	[Athlete].Last |Name|	a.LastName|
+| Firstnane	|runner.firstname		|[Athlete].First |Name	|a.FirstName|
+| Gender	|runner.gender	|M or F for racetec	|[Athlete].Gender|	a.GenderId|
+| BHAA Standard|	runner.standard	|raceresult.standard	|[Event].Chip Number|	ea.ChipNo|
+| Date Of Birth|	runner.dateofbirth	|YYYY-MM-DD	|[Athlete].Date of Birth|	a.DateOfBirth|
+| Age Category	|raceresult.category|		Not imported||	
+| Team Name	|team.name	|	[Event].Team Name	|et.TeamName|
+| Team ID	|team.id	|BHAA Team ID	|[Athlete].PhoneHome	|a.PhoneHome|
+| Comany Name|	company.name|		[Event].Club Name	|cl.ClubName|
+| Company ID	|company.id	|BHAA Company ID	[Athlete].PhoneWork	|a.PhoneWork|
+| Event	|event.tag_race.distance|	abc2012_5km	|[Event].Event|	
+| RaceId	|raceresult.race|	Export only	|Not imported|	
+| Email	|runner.email	|	[Athlete].Email|	a.Email|
+| Newsletter	|runner.newsletter|	BHAA import only	|Not imported|	
+| Mobile	|runner.mobile		|[Athlete].PhoneCell	|a.PhoneCell|
+| TextAlert|	runner.textmessage	|BHAA import only	|Not imported	|
+| Address1	|runner.address1	|BHAA import only	|[Athlete].Address1|	a.Address1|
+| Address2	|runner.address2	|BHAA import only	|[Athlete].Address2|	a.Address2|
+| Address3	|runner.address3	|BHAA import only	|[Athlete].Address3|	a.Address3|
+| type|	type|	Option BHAA |reg fields	|Not imported|	
+| last_modified|	last_modified,	Option BHAA reg fields	|Not imported	|
 
 This is a backup of the racetec SQL reports for the BHAA.
 
